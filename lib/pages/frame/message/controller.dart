@@ -1,12 +1,12 @@
 import 'package:chatty/common/routes/names.dart';
-import 'package:chatty/pages/frame/welcome/state.dart';
+import 'package:chatty/pages/frame/message/index.dart';
 import 'package:get/get.dart';
 
-class WelcomeController extends GetxController {
-  WelcomeController();
+class MessageController extends GetxController {
+  MessageController();
 
   final title = 'ChatRocketSuper';
-  final state = WelcomeState();
+  final state = MessageState();
 
   // get called routing -> called bindings -> called controller to save in memory -> all state initialized -> onReady get called
   @override

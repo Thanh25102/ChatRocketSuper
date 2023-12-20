@@ -7,22 +7,21 @@ import 'package:dio_cookie_manager/dio_cookie_manager.dart';
 import 'package:chatty/common/store/store.dart';
 import 'package:chatty/common/utils/utils.dart';
 import 'package:chatty/common/values/values.dart';
-import 'package:flutter/material.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:get/get.dart' hide FormData;
 
 
 class HttpUtil {
-  static HttpUtil _instance = HttpUtil._internal();
+  static final HttpUtil _instance = HttpUtil._internal();
   factory HttpUtil() => _instance;
 
   late Dio dio;
-  CancelToken cancelToken = new CancelToken();
+  CancelToken cancelToken = CancelToken();
 
 
   HttpUtil._internal() {
     // BaseOptions、Options、RequestOptions 都可以配置参数，优先级别依次递增，且可以根据优先级别覆盖参数
-    BaseOptions options = new BaseOptions(
+    BaseOptions options = BaseOptions(
       // 请求基地址,可以包含子路径
       baseUrl: SERVER_API_URL,
 

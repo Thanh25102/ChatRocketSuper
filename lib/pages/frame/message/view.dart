@@ -1,11 +1,11 @@
 import 'package:chatty/common/values/colors.dart';
-import 'package:chatty/pages/frame/welcome/controller.dart';
+import 'package:chatty/pages/frame/message/controller.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 
-class WelcomePage extends GetView<WelcomeController> {
-  const WelcomePage({super.key});
+class MessagePage extends GetView<MessageController> {
+  const MessagePage({super.key});
 
   Widget _buildPageHeadTitle(String title) {
     return Container(
