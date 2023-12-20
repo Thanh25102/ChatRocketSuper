@@ -1,5 +1,6 @@
 import 'package:chatty/common/middlewares/middlewares.dart';
 import 'package:chatty/pages/frame/message/index.dart';
+import 'package:chatty/pages/frame/sign_in/index.dart';
 import 'package:chatty/pages/frame/welcome/index.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -27,12 +28,13 @@ class AppPages {
         RouteAuthMiddleware(priority: 1),
       ],
     ),
-
-    /*GetPage(
+    GetPage(
       name: AppRoutes.SIGN_IN,
-      page: () => SignInPage(),
+      page: () => const SignInPage(),
       binding: SignInBinding(),
     ),
+
+    /*
 
     // 需要登录
     // GetPage(

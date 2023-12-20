@@ -5,7 +5,6 @@ import 'package:get/get.dart';
 class MessageController extends GetxController {
   MessageController();
 
-  final title = 'ChatRocketSuper';
   final state = MessageState();
 
   // get called routing -> called bindings -> called controller to save in memory -> all state initialized -> onReady get called
@@ -13,7 +12,6 @@ class MessageController extends GetxController {
   void onReady() {
     // use for navigation
     super.onReady();
-    Future.delayed(
-        const Duration(seconds: 3), () => Get.offAllNamed(AppRoutes.Message));
+
   }
 }
