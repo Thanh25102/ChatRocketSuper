@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "762047992689",
+    "project_id": "chat-rocket-3cff8",
+    "storage_bucket": "chat-rocket-3cff8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:762047992689:android:e3dee976620edf6a209cd0",
+        "android_client_info": {
+          "package_name": "com.manhthanh.chatrocket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "762047992689-mden2ovn148ovef1f1eob7qu4hq9cb9p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwDQG3u6cJibkluAq-cEH1qPdUjr84JV4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "762047992689-mden2ovn148ovef1f1eob7qu4hq9cb9p.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "762047992689-8kjmpvs7eng2mmoh6aemevl68na6q21j.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.dbestech.chatty"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
