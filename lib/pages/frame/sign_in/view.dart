@@ -1,3 +1,4 @@
+import 'package:chatty/common/enum/oauth_type.dart';
 import 'package:chatty/common/values/colors.dart';
 import 'package:chatty/pages/frame/sign_in/controller.dart';
 import 'package:flutter/material.dart';
@@ -59,7 +60,9 @@ class SignInPage extends GetView<SignInController> {
             ],
           ),
         ),
-        onTap: () {});
+        onTap: () {
+          controller.handleSignIn(OauthType.google);
+        });
   }
 
   Widget _buildOrWidget() {

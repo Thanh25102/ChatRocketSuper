@@ -51,7 +51,7 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions android = FirebaseOptions(
     apiKey: 'AIzaSyCwDQG3u6cJibkluAq-cEH1qPdUjr84JV4',
-    appId: '1:762047992689:android:882830011c9381e9209cd0',
+    appId: '1:762047992689:android:e3dee976620edf6a209cd0',
     messagingSenderId: '762047992689',
     projectId: 'chat-rocket-3cff8',
     storageBucket: 'chat-rocket-3cff8.appspot.com',
@@ -59,10 +59,12 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyD3A4hfC4u2gH-WmkdGubj2N4R3l1U8S6w',
-    appId: '1:762047992689:ios:fddb9a84a4a901ea209cd0',
+    appId: '1:762047992689:ios:75cdc4496a15f9b2209cd0',
     messagingSenderId: '762047992689',
     projectId: 'chat-rocket-3cff8',
     storageBucket: 'chat-rocket-3cff8.appspot.com',
-    iosBundleId: 'com.dbestech.chatty',
+    androidClientId: '762047992689-r7b5pg28n2ni7l3nssef3brvqa5jqm6h.apps.googleusercontent.com',
+    iosClientId: '762047992689-ha6kpv27io4udpgq8opqqrs05mfncu0b.apps.googleusercontent.com',
+    iosBundleId: 'com.manhthanh.chatrocket',
   );
 }
